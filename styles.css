@@ -311,7 +311,7 @@ span{
     h1{
         font-size: 6vw;
         text-align: center;
-        margin-bottom: 10%;
+        margin-bottom: 3%;
     }
     .card_2sided {
         width: 20vw;
@@ -325,11 +325,11 @@ span{
     height: 25vw;
     }
     .score_block {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 
     .koloda_wrapper {
-        height: 170px;
+        height: 130px;
         position: relative;
         margin: 0 auto;
         width: 20vw;
@@ -338,7 +338,7 @@ span{
 
     .koloda_wrapper p {
     font-size: 3.5vw;
-        top:130px;
+        top:120px;
         left: 25%;
     }
 
@@ -370,10 +370,25 @@ span{
     #sc1,
     #sc2,
     .loose,
-    .win
-    
-    {
+    .win{
         font-size: 4vw;
         font-weight: 600;
+        padding: 5px 15px
     }
+
+    .score_block,
+    .start,
+    .start-again,
+    span,
+    .enough, 
+    .finish, 
+    .finish-res,
+    #sc1,
+    #sc2,
+    .loose,
+    .win{
+        margin-bottom: 10px;
+    }
+
+    
 }
