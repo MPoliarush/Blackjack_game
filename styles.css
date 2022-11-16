@@ -334,12 +334,13 @@ span{
         margin: 0 auto;
         width: 20vw;
         cursor: pointer;
+        left:-20px;
     }
 
     .koloda_wrapper p {
     font-size: 3.5vw;
         top:120px;
-        left: 25%;
+        left:35%;
     }
 
     .text_score_block p {
