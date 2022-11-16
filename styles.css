@@ -14,10 +14,12 @@ h1{
     font-size: 3vw;
     font-style: oblique;
     font-weight: 800;
-   margin-bottom: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
     margin-left: 15px;
    
 }
+
 img{
     width: 10vw;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
@@ -54,22 +56,21 @@ img{
 
 .empty1{
     position: absolute;
-    left:10px;
     top:10%;
 }
 .empty2{
     position: absolute;
-    left:20px;
+    left:10px;
     top:13%;
 }
 .empty3{
     position: absolute;
-    left:30px;
+    left:20px;
     top:16%;
 }
 .empty4{
     position: absolute;
-    left:40px;
+    left:30px;
     top:20%;
 }
 
@@ -306,3 +307,73 @@ span{
     visibility: hidden;
 }
 
+@media (max-width: 400px) {
+    h1{
+        font-size: 6vw;
+        text-align: center;
+        margin-bottom: 10%;
+    }
+    .card_2sided {
+        width: 20vw;
+    height: 25vw;
+        margin: 0 10px 0 0;
+    }
+
+    img{
+    margin:0 10px 0 0;
+    width: 20vw;
+    height: 25vw;
+    }
+    .score_block {
+        margin-bottom: 20px;
+    }
+
+    .koloda_wrapper {
+        height: 170px;
+        position: relative;
+        margin: 0 auto;
+        width: 20vw;
+        cursor: pointer;
+    }
+
+    .koloda_wrapper p {
+    font-size: 3.5vw;
+        top:130px;
+        left: 25%;
+    }
+
+    .text_score_block p {
+        width: 50%;
+        text-align: center;
+        margin: 0 auto;
+        
+    }
+    .cards_wrapper{
+        margin-top: 20px;
+    }
+    .computer>h3, .player>h3 {
+        text-align: center;
+        color: #FFE9B1;
+        font-size: 3vw;
+        font-style: italic;
+        line-height: 0;
+        margin: 15px 0;
+    }
+
+    .text_score_block p,
+    .start,
+    .start-again,
+    span,
+    .enough, 
+    .finish, 
+    .finish-res,
+    #sc1,
+    #sc2,
+    .loose,
+    .win
+    
+    {
+        font-size: 4vw;
+        font-weight: 600;
+    }
+}
